@@ -1,0 +1,35 @@
+n=int(input ("enter a number"))
+m=n
+x=n
+a=0
+r=0
+f=0
+while x>0:
+  if x%10==0:
+    f=f+1
+  x=x/10
+if n%2==0:
+    print ("even")
+else:
+  print ("odd")
+for i in range(1,n):
+  if n%i==0:
+    a+=1
+  if(a==0):
+    print ("prime")
+while m>0:
+  r=r+(m%10)*10**f
+  m=m/10
+  f=-1
+if r==m:
+  print("palindrome")
+else:
+  print("not palindrome")
+m=n;r=0
+while m>0:
+  r=r+(m%10)**3
+  m=m/10
+if r==n:
+  print ("Armstrong")
+else:
+  print ("not Armstrong")
