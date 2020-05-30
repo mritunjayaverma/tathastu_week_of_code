@@ -1,0 +1,10 @@
+print("enter list")
+n=int(input ("enter number of components"))
+l=[]
+p=[]
+for i in range(n):
+  l.append(input())
+for i in l:
+  if i not in p:
+    p.append(i)
+print ("after removing duplicate",p)
