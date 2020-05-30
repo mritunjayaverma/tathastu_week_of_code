@@ -1,0 +1,16 @@
+n=int(input("enter number of components"))
+print("enter list 1")
+a=[]
+b=[]
+z=[]
+for i in range(n):
+  a.append(input())
+print("enter second list")
+for j in range(n):
+  b.append(input())
+for k in range(n):
+  for l in range(n):
+    if a[k]==b[l]:
+      z.append(a[k])
+print("intersected",z)
+
