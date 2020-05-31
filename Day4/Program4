@@ -1,0 +1,11 @@
+
+n=int(input ("enter number of components in dictionary"))
+d1=dict()
+d2=={}
+for I in range(n):
+  key=input("enter the key item"+str(i+1))
+  value=input("enter values"+str(i+1))
+  d1[key]=value
+for key, value in d.items():
+  d2[key]=value
+print(d2)
