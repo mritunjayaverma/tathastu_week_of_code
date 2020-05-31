@@ -1,0 +1,5 @@
+
+l=[(1,2,3),(8,6,9),(4,8,1),(0,9,4),(6,8,3),(7,3,7)]
+n=int(input("enter nth element"))
+l.sort(key x:x[n])
+print(str(1))
