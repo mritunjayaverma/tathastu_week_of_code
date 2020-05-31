@@ -1,0 +1,12 @@
+n=int(input("enter number of components"))
+print("enter tuply")
+c=0
+l=[]
+for i in range(n):
+  l.append(input())
+t=tuple(l)
+ele=input("element to be searched")
+for i in t:
+  if ele==i:
+    c+=1
+print("occurrenc is",c,"times")
