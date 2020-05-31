@@ -1,0 +1,18 @@
+
+dict={
+  "my":3,
+  "name":4,
+  "is":1,
+  "what":6,
+  "you":2,
+  "though":5
+}
+second=0
+first=0
+for value in dict.values():
+  if(first<value):
+    first=value
+for value in dict.values():
+  if(value>second and value<first):
+    second=value
+print("second maximum value is: ",second)
