@@ -1,0 +1,10 @@
+n=int(input("enter the number"))
+s=str(n)
+m=""
+l=len(s)
+for i in s:
+  if i=="0":
+    m=m+"5"
+  else:
+    m=m+i
+print(m)
