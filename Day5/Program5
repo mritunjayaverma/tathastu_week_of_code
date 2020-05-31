@@ -1,1 +1,20 @@
 
+list=[]
+def sort(list):
+  for i in list:
+    for j in list:
+      if i>j:
+        min=i
+        i=j
+        j=min
+   return list
+even=[]
+odd=[]
+n=int(input("enter length of array"))
+for i in range(n):
+  k=int(input("enter number"))
+  if k%2==0:
+    even.append(k)
+  else:
+    odd.append(k)
+print("sorted array: ",sort(even).append(odd))
