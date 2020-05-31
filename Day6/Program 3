@@ -1,0 +1,10 @@
+n=int(input("enter number of integers"))
+l=[]
+m=0
+for i in range(n):
+  l.append(int(input("enter a number")))
+for i in l:
+  for j in l:
+    if i<(j+1) and i>0:
+      m=i
+print(m)
