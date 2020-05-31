@@ -1,0 +1,7 @@
+def houses(n):
+  if n%2==0:
+    return n/2
+  if n%2!=0:
+    return (n+1)/2
+n=int(input("enter number of houses"))
+print("stoled values are: ",houses(n))
